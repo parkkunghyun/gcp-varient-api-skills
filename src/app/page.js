@@ -48,7 +48,7 @@ export default function Home() {
         initial={{ x: 100, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.8 }}
-        key={images[index]} // 이미지 전환 시 애니메이션 트리거
+        key={images[index]}
       >
         <Image
           src={images[index]}
