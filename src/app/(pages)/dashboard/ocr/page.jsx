@@ -98,8 +98,8 @@ const OcrPage = () => {
         )}
       </div>
 
-      {/* 예시 이미지 섹션 */}
-      <div className="w-full lg:w-1/3 bg-white p-6 rounded-xl shadow-lg lg:ml-8 mt-8 lg:mt-0">
+      {/* 예시 이미지 섹션 (lg 이하에서는 숨김) */}
+      <div className="w-full lg:w-1/3 bg-white p-6 rounded-xl shadow-lg lg:ml-8 mt-8 lg:mt-0 hidden lg:block">
         <h2 className="text-xl font-semibold text-gray-800 mb-4">예시 이미지</h2>
         <div className="space-y-4">
           <img

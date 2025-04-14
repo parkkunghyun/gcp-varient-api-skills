@@ -40,9 +40,18 @@ export default function Home() {
             체험하기
           </button>
         </Link>
+
+        {/* 추가된 텍스트 섹션 */}
+        <motion.p
+          className="text-gray-600 text-lg mt-4"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+        >
+          GCP의 Cloud Run을 활용해 서버리스로 배포해서 CI/CD를 해결했습니다.
+        </motion.p>
       </motion.div>
 
-      
       <motion.div
         className="w-1/2 flex justify-end"
         initial={{ x: 100, opacity: 0 }}
